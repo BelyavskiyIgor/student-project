@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mysql:
+    build: docker/mysql
+    container_name: postgresSql
+    ports:
+      - "3306:3306"
